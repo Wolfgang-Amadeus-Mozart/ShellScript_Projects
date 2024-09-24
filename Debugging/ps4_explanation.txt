@@ -1,4 +1,0 @@
-PS4 controls the output of debugging 
-by default, it has just a plus sign: +
-But it's possible to edit the PS4 varible for showing the line number for example
-

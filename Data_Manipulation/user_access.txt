@@ -1,4 +1,0 @@
-#Users with adminis creds
-Filipe
-#Users with regular access
-John

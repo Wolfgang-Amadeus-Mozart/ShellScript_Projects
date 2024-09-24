@@ -1,3 +1,0 @@
-FourthLine
-FifthLine
-Sixth line
