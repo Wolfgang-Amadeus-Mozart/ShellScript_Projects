@@ -1,0 +1,12 @@
+#File with some random text for using grep with regext like grep "[0-9]" or grep [a-z][A-Z]
+
+sldkfjKJFHSJKHS
+987654
+!$#¨!%*¨#!_)(+@_)!*
+
+*
+*#*
+*#*#*
+*#*#*#*
+*#*#*#*#*
+*#*#*#*#*#*
