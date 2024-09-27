@@ -29,6 +29,10 @@ function Get_lines() {
 	echo "$COUNTER"
 }
 
+function Get_Images_Links() {
+	echo $(cat wiki_page.txt | grep -o '<img src=.*')
+}
+
 
 #------------------------Execution--------------------
 Curl_wikipage
@@ -36,6 +40,7 @@ Curl_wikipage
 echo "select an option
 1 - For page's title
 2 - Counting the file's line
+3 - For Getting page image links
 "
 
 read -p "Enter a number: " NUM
@@ -48,6 +53,9 @@ case $NUM in
     Get_lines
     echo "$COUNTER"
     ;;
+  3)
+    Get_Images_Links
+    ;;    
   *)
     echo "Invalid number!"
     ;;
